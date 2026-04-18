@@ -1,6 +1,5 @@
-taipy
-taipy-gui
-requests
-pandas
-numpy
-scipy
+taipy==3.1.0
+taipy-gui==3.1.0
+requests==2.31.0
+pandas==2.2.2
+numpy==1.26.4
