@@ -119,4 +119,9 @@ Condition: <|{desc}|text|>
 # =========================
 # RUN APP
 # =========================
-Gui(page).run(dark_mode=True)
+Gui(page).run(
+    title="Weather App",
+    host="0.0.0.0",
+    port=8501,
+    use_reloader=False
+)
